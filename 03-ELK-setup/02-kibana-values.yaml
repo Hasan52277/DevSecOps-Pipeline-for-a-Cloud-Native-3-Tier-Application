@@ -1,6 +1,6 @@
 imageTag: 8.5.1
 # resources:
-#   requests:
+#   requests: 
 #     cpu: "50m"
 #     memory: "256M"
 #   limits:
