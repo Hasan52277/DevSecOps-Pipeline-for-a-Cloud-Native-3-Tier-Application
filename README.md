@@ -1,17 +1,16 @@
 # 3tier App Architecture with Jenkins Shared Library DevSecOps Pipeline.
 
 ## 3tier App Architecture Project Repo:
-[https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project.git](https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project.git)
+
 
 ## For more projects, check out  
-[https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
 
 
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/a1829efe7c6bfa5762b5db744e88250674b9c9bf/sharedlbrareiskubernetes-part2.jpg)](https://youtu.be/2j7xBL-nabg)
+
+
 
 ## Jenkins shared libraries Main repo: 
-[https://github.com/harishnshetty/jenkins-shared-libraries-project.git](https://github.com/harishnshetty/jenkins-shared-libraries-project.git)
----
+
 
 - jenkins-server [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/jenkins-terraform?tab=readme-ov-file]
 ---
