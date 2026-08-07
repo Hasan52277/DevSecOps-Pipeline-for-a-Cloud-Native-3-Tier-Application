@@ -13,10 +13,6 @@
 
 
 
-## For more projects, check out  
-[https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
-
-
 
 
 ## 3Tier Jenkins shared library with GitOps and DevSecOps Pipeline
