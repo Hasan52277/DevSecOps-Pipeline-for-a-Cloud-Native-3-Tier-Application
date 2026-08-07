@@ -12,22 +12,20 @@
 ## Jenkins shared libraries Main repo: 
 
 
-- jenkins-server [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/jenkins-terraform?tab=readme-ov-file]
+- jenkins-server
+
+- Frontend 
+
+- Backend 
 ---
 
-- Frontend [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/frontend?tab=readme-ov-file]
+- Database 
 ---
 
-- Backend [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/backend?tab=readme-ov-file]
+- Deployments 
 ---
 
-- Database [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/database?tab=readme-ov-file]
----
-
-- Deployments [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/deployment?tab=readme-ov-file]
----
-
-- eks-terraform [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/eks-terraform?tab=readme-ov-file]
+- eks-terraform 
 
 
 
@@ -68,7 +66,7 @@ cosign verify-attestation --key cosign.pub --type vuln harishnshetty/cosign-demo
 
 <!-- ## Flipkart Clone Sample Image
 
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/d13e0ad9f2fc91499853cc8624b3c2d50f8f2e88/flipkart2.jpg)](https://youtu.be/KwKtMHBQXk4) -->
+
 
 ## 3Tier Jenkins shared library with GitOps and DevSecOps Pipeline
 
