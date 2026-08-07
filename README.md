@@ -4,14 +4,7 @@
 - Backend
 - Database
 
-## 3tier App Architecture Project Repo:
-
-/3tier-app-architecture-project.git](https://github.com/harishnshetty/3tier-app-architecture-project.git)
-
-## Jenkins shared libraries repo: 
-[https://github.com/harishnshetty/jenkins-shared-libraries-project.git](https://github.com/harishnshetty/jenkins-shared-libraries-project.git)
-
-
+## 3tier App Architecture 
 
 
 
