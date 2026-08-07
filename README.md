@@ -1,29 +1,28 @@
 # 3tier App Architecture with Jenkins Shared Library DevSecOps Pipeline.
 
 ## 3tier App Architecture Project Repo:
-[https://github.com/harishnshetty/3tier-app-architecture-project.git](https://github.com/harishnshetty/3tier-app-architecture-project.git)
+
 
 ## Jenkins shared libraries Main repo: 
-[https://github.com/harishnshetty/jenkins-shared-libraries-project.git](https://github.com/harishnshetty/jenkins-shared-libraries-project.git)
+
 ---
 
-- jenkins-server [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/jenkins-terraform?tab=readme-ov-file]
+- jenkins-server 
 ---
 
-- Frontend [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/frontend?tab=readme-ov-file]
+- Frontend 
 ---
 
-- Backend [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/backend?tab=readme-ov-file]
+- Backend 
 ---
 
-- Database [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/database?tab=readme-ov-file]
+- Database 
 ---
 
-- Deployments [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/deployment?tab=readme-ov-file]
+- Deployments 
 ---
 
-- eks-terraform [https://github.com/harishnshetty/3-tier-jenkins-shared-libraries-devsecops-project/tree/eks-terraform?tab=readme-ov-file]
-
+- eks-terraform 
 
 
 
@@ -35,38 +34,29 @@ password: 1234
 
 ```bash
 
-docker build -t harishnshetty/cosign-demo:latest .
+docker build -t mohdhasan/cosign-demo:latest .
 
-docker push harishnshetty/cosign-demo:latest
+docker push mohdhasan/cosign-demo:latest
 
-trivy image --ignore-unfixed --format cosign-vuln --output vuln.json harishnshetty/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
 
 # Attest
 
-cosign attest --key cosign.key --type vuln --predicate vuln.json harishnshetty/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
+cosign attest --key cosign.key --type vuln --predicate vuln.json mohdhasan/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
 
 
-cosign sign --key cosign.key harishnshetty/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
+cosign sign --key cosign.key mohdhasan/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
 
 # Verify
 
-cosign verify --key cosign.pub harishnshetty/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
+cosign verify --key cosign.pub  mohdhasan/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
 
 
 # Verify Attestation
-cosign verify-attestation --key cosign.pub --type vuln harishnshetty/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
+cosign verify-attestation --key cosign.pub --type vuln  mohdhasan/cosign-demo@sha256:a3d368a56d2a70311bf7b3971ca2345dbef6ba0a54251f33a8a7757966ec454f
 ```
 
 
-## For more projects, check out  
-[https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
 
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/a1829efe7c6bfa5762b5db744e88250674b9c9bf/sharedlbrareiskubernetes-part2.jpg)](https://youtu.be/2j7xBL-nabg)
-
-
-<!-- ## Flipkart Clone Sample Image
-
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/d13e0ad9f2fc91499853cc8624b3c2d50f8f2e88/flipkart2.jpg)](https://youtu.be/KwKtMHBQXk4) -->
 
 ## 3Tier Jenkins shared library with GitOps and DevSecOps Pipeline
 
@@ -438,7 +428,6 @@ source ~/.bashrc
 
 ## 5. terraform Installation
 
-Refer: [Terraform Installation Guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ```bash
 wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
@@ -671,9 +660,9 @@ Password: encrypted-password
 - Subdomain (Wild-card ACM)
 - Attach the ingress
 
-## OWASP ZAPROXY
 
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/d13e0ad9f2fc91499853cc8624b3c2d50f8f2e88/flipkart3.jpg)](https://youtu.be/NVqom2oZ40k)
+
+
 
 
 ##  Delete EKS Cluster (Cleanup) finally u done a project 
