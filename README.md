@@ -5,7 +5,8 @@
 - Database
 
 ## 3tier App Architecture Project Repo:
-[https://github.com/harishnshetty/3tier-app-architecture-project.git](https://github.com/harishnshetty/3tier-app-architecture-project.git)
+
+/3tier-app-architecture-project.git](https://github.com/harishnshetty/3tier-app-architecture-project.git)
 
 ## Jenkins shared libraries repo: 
 [https://github.com/harishnshetty/jenkins-shared-libraries-project.git](https://github.com/harishnshetty/jenkins-shared-libraries-project.git)
@@ -15,14 +16,12 @@
 ## For more projects, check out  
 [https://harishnshetty.github.io/projects.html](https://harishnshetty.github.io/projects.html)
 
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/cc0a165209bb710d2f3dffbd5a81b448c2abfd1c/sharedlibraries.jpg)](https://youtu.be/NVqom2oZ40k)
-
 
 
 
 ## 3Tier Jenkins shared library with GitOps and DevSecOps Pipeline
 
-Refer: [spot instance pricing](https://aws.amazon.com/ec2/spot/pricing)
+
 
 
 
