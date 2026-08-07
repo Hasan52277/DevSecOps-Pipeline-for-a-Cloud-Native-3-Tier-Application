@@ -673,8 +673,6 @@ Password: encrypted-password
 
 ## OWASP ZAPROXY
 
-[![Video Tutorial](https://github.com/harishnshetty/image-data-project/blob/d13e0ad9f2fc91499853cc8624b3c2d50f8f2e88/flipkart3.jpg)](https://youtu.be/NVqom2oZ40k)
-
 
 ##  Delete EKS Cluster (Cleanup) finally u done a project 
  - For more conents reach out https://harishnshetty.github.io/projects.html
